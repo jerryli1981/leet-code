@@ -15,12 +15,17 @@ public:
         ListNode* pPrev = NULL;
 
         while(pNode != NULL){
+
+            // prevent 
             ListNode* pNext = pNode->next;
 
-            if(pNext == NULL) pReversedHead = pNode;
+            if(pNext == NULL) 
+                pReversedHead = pNode;
 
+            //assign
             pNode->next = pPrev;
 
+            //move pointer
             pPrev = pNode;
             pNode = pNext;
         }
@@ -41,7 +46,7 @@ ListNode* createLinkedList(std::initializer_list<int> lst){
 
 
 int main(){
-    
+
     Solution s;
     ListNode *head = s.reverseList(createLinkedList({1,2,3,4,5}));
     for (ListNode *cur=head; cur; cur=cur->next)
