@@ -1,9 +1,10 @@
-#include<iostream>
-using namespace std;
-
 // max difference of two elements in the array
 // s.t. larger element appears after the smallest
 // element in the array
+
+#include <iostream>
+using namespace std;
+
 int maxDiff(int arr[],int size) {
    int i;
    int max_diff = arr[1]-arr[0];

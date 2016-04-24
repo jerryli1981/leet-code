@@ -1,3 +1,6 @@
+//Given a string, replace every space(blank) to '%20'
+//For example, 'We are happy' ---> 'We%20are%20happy'
+
 #include <iostream>
 #include <cstring>
 using namespace std;

@@ -1,3 +1,5 @@
+//find a number that the times of appears more than half of the lenght of the array. 
+
 #include <iostream>
 
 int RandomInRange(int min, int max)

@@ -1,3 +1,15 @@
+//Given a binary tree, output the inorder traversal. 
+/* 
+ *          1
+ *         / \
+ *        2   3
+ *           /
+ *          4
+ *           \
+ *            5
+ */
+
+
 #include <iostream>
 #include <vector>
 #include <stack>
@@ -43,18 +55,6 @@ public:
     }
 
 };
-
-/// Test Unit
-/// {1,2,3,#,#,4,#,#,5}
-/* 
- *          1
- *         / \
- *        2   3
- *           /
- *          4
- *           \
- *            5
- */
 
 int main() {
 

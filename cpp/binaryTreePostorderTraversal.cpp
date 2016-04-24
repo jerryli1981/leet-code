@@ -1,3 +1,14 @@
+//Given a binary tree, output the postorder traversal. 
+/* 
+ *          1
+ *         / \
+ *        2   3
+ *           /
+ *          4
+ *           \
+ *            5
+ */
+
 #include <iostream>
 #include <vector>
 
@@ -27,18 +38,6 @@ public:
 
 };
 
-
-/// Test Unit
-/// {1,2,3,#,#,4,#,#,5}
-/* 
- *          1
- *         / \
- *        2   3
- *           /
- *          4
- *           \
- *            5
- */
 
 int main(){
 

@@ -1,3 +1,5 @@
+//reverse linked list
+
 #include <iostream>
 #include <cstddef>
 
@@ -11,6 +13,7 @@ class Solution{
 public:
     ListNode* reverseList(ListNode* pHead){
         ListNode* pReversedHead = NULL;
+        
         ListNode* pNode = pHead;
         ListNode* pPrev = NULL;
 

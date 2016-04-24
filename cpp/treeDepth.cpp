@@ -1,3 +1,5 @@
+// compute the depth of a tree
+
 #import <iostream>
 #import <cstddef>
 

@@ -1,3 +1,6 @@
+// find the first only appear one time in a string
+//for example abaccdeff, ---> b
+
 #include <iostream>
 using namespace std;
 

@@ -1,5 +1,7 @@
-#include <iostream>
+// give n integers, find the minial k integers.
+//for example, 4,5,1,6,2,7,3,8. then 4 least numbers are 1,2,3,4
 
+#include <iostream>
 
 int RandomInRange(int min, int max){
 	return rand()%(max-min+1) + min;

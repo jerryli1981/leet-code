@@ -1,3 +1,5 @@
+//0,1,...,n-1 form a circle. from 0, remove m th number, compute the last number. 
+
 #include <iostream>
 #include <list>
 

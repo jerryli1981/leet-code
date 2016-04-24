@@ -1,5 +1,10 @@
+// test whether a tree is balance binary tree.
+//if the |left_depth - right_depth| <= 1, then the tree is balance tree.
+
+
+
 #import <iostream>
-#import <cstddef>
+#import <cstddef> //define NULL
 
 struct TreeNode
 {

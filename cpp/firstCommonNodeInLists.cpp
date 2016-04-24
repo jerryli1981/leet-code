@@ -1,3 +1,5 @@
+// find first common node in lists
+
 #import <iostream>
 #import <cstddef>
 

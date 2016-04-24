@@ -1,3 +1,5 @@
+// implement quick sort
+
 #include <iostream>
 
 int RandomInRange(int min, int max)
